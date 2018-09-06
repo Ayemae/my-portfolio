@@ -13,10 +13,10 @@ class App extends Component {
         <Menu />
         <Switch>
           <div className="post_column center">
-          <Route exact path="process.env.PUBLIC_URL + /" component={About} />
-          <Route exact path="process.env.PUBLIC_URL + /about" component={About} />
-          <Route exact path="process.env.PUBLIC_URL + /portfolio" component={Portfolio} />
-          <Route exact path="process.env.PUBLIC_URL + /contact" component={Contact} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={About} />
+          <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
+          <Route exact path={process.env.PUBLIC_URL + '/portfolio'} component={Portfolio} />
+          <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
           </div>
         </Switch>
       </div>
