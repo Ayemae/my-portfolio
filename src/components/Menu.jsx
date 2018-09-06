@@ -13,9 +13,9 @@ const Menu = () => (
 
          <div className="sidebarlinks">
          <ul>
-         <li><a href="about">About</a></li>
-         <li><a href="portfolio">Portfolio</a></li>
-         <li><a href="contact">Contact</a></li>
+         <li><a href="/my-portfolio/about">About</a></li>
+         <li><a href="/my-portfolio/portfolio">Portfolio</a></li>
+         <li><a href="/my-portfolio/contact">Contact</a></li>
          </ul>
          </div>
 
