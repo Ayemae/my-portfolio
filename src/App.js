@@ -8,15 +8,15 @@ import Contact from "./components/Contact";
 class App extends Component {
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
       <div>
         <Menu />
         <Switch>
           <div className="post_column center">
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path={`${process.env.PUBLIC_URL}/`} component={About} />
+          <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About} />
+          <Route exact path={`${process.env.PUBLIC_URL}/portfolio`} component={Portfolio} />
+          <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact} />
           </div>
         </Switch>
       </div>
