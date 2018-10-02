@@ -182,6 +182,12 @@ a, a:hover {
                 .postcontent p {
                     padding-bottom: 10px;
                 }
+
+                .postcontent .portrait img {
+                    float: left;
+                    padding: 15px;
+                    border-radius: 15px;
+                }
             
                        
                     
