@@ -1,17 +1,16 @@
 import React from "react";
 
 const Menu = () => (
-    <div className="sidebar">
+    <div className="menu">
         <div className="header">
-            <p>Alyssa</p>
-            <p>Alecci</p>
+            <p>Alyssa Alecci</p>
         </div>
 
         <div className="description" align="center">
-        <p>Frontend designer,</p> <p>illustrator,</p> <p>tea enthusiast.</p>
+        <span>Frontend designer,</span> <span>illustrator,</span> <span>tea enthusiast.</span>
          </div>  
 
-         <div className="sidebarlinks">
+         <div className="menulinks">
          <ul>
          <li><a href="/my-portfolio/about">About</a></li>
          <li><a href="/my-portfolio/portfolio">Portfolio</a></li>

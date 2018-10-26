@@ -13,6 +13,7 @@ const About = () => (
     </p>
             <p>She loves teaching, storytelling, and editing, and has aided a number of her creative peers in their endeavors. In her spare time, she writes and draws a drama/horror webcomic called <a href="http://lapsecomic.com">Lapse</a>, and does volunteer administrative duties and web design for the SpiderForest Webcomic Collective.</p>
         </div>
+        <br className="clear" />
     </div>
 );
 

@@ -6,6 +6,8 @@ const Portfolio = () => (
         <div className="text">
 
             <h1>Development</h1>
+            
+        <div className="portfolio_index">
 
             <div className="portfolio_item">
                 <div class="folio-img-wrapper">
@@ -14,18 +16,37 @@ const Portfolio = () => (
                         <img src="assets/images/portfolio/Ptfo-hangman.png" alt="Hangman" />
                     </a>
                 </div>
-                <p>Figure out what your plans are before your schedule fills up!</p>
-</div>
+                <a className="see-code" href="https://github.com/Ayemae/hangman-game" target="_blank" rel="noopener noreferrer" >
+                    <i class="fab fa-github"></i> See code
+                </a>
+                <p>Figure out what your plans are before your schedule fills up! Made with Javascript.</p>
+            </div>
 
             <div className="portfolio_item">
                 <div class="folio-img-wrapper">
                     <div className="title">'Right Angles'</div>
-                    <a href="https://ayemae.github.io/TriviaGame/" target="_blank" rel="noopener noreferrer" >
+                    <a href="https://ayemae.github.io/RightAngles/" target="_blank" rel="noopener noreferrer" >
                         <img src="assets/images/portfolio/Ptfo-Right-Angles.png" alt="RightAngles" />
                     </a>
                 </div>
-                <p>A tile rotation game.</p>
-    </div>
+                <a className="see-code" href="https://github.com/Ayemae/RightAngles" target="_blank" rel="noopener noreferrer" >
+                    <i class="fab fa-github"></i> See code
+                </a>
+                <p>A tile rotation game made with Javascript.</p>
+            </div>
+
+            <div className="portfolio_item">
+                <div class="folio-img-wrapper">
+                    <div className="title">'Weird Wide Web'</div>
+                    <a href="https://guarded-meadow-97753.herokuapp.com/" target="_blank" rel="noopener noreferrer" >
+                        <img src="assets/images/portfolio/Ptfo-WeirdWideWeb.png" alt="WeirdWideWeb" />
+                    </a>
+                </div>
+                <a className="see-code" href="https://github.com/Uncanny-Team/Weird-Wide-Web" target="_blank" rel="noopener noreferrer" >
+                    <i class="fab fa-github"></i> See code
+                </a>
+                <p>A database of weird miscellanea that users can submit and add to. Collaborative project in which I was responsible for front-end.</p>
+            </div>
 
             <div className="portfolio_item">
                 <div class="folio-img-wrapper">
@@ -34,6 +55,9 @@ const Portfolio = () => (
                         <img src="assets/images/portfolio/Ptfo-Giphy.png" alt="GiphyApp" />
                     </a>
                 </div>
+                <a className="see-code" href="https://github.com/Ayemae/GiphyApp" target="_blank" rel="noopener noreferrer" >
+                    <i class="fab fa-github"></i> See code
+                </a>
                 <p>Spawn gifs from the Giphy API!</p>
     </div>
 
@@ -44,6 +68,9 @@ const Portfolio = () => (
                         <img src="assets/images/portfolio/Ptfo-Trains.png" alt="Train Scheduler" />
                     </a>
                 </div>
+                <a className="see-code" href="https://github.com/Ayemae/Train-Scheduler" target="_blank" rel="noopener noreferrer" >
+                    <i class="fab fa-github"></i> See code
+                </a>
                 <p>Add trains and the form will calculate their times.</p>
     </div>
 
@@ -54,7 +81,10 @@ const Portfolio = () => (
                         <img src="assets/images/portfolio/Ptfo-liri.png" alt="liri" />
                     </a>
                 </div>
-                <p>A console program made with Node.js and APIs that can return song, movie, and Twitter data.</p>
+                <a className="see-code" href="https://github.com/Ayemae/liri-node-app" target="_blank" rel="noopener noreferrer" >
+                    <i class="fab fa-github"></i> See code
+                </a>
+                <p>Non-deployed; console only. Made with Node.js and APIs that can return song, movie, and Twitter data.</p>
     </div>
 
             <div className="portfolio_item">
@@ -64,12 +94,20 @@ const Portfolio = () => (
                         <img src="assets/images/portfolio/Ptfo-word-guess.png" alt="Console Hangman" />
                     </a>
                 </div>
-                <p>A console hang-man game made with Node inquirer.</p>
+                <a className="see-code" href="https://github.com/Ayemae/word-guess" target="_blank" rel="noopener noreferrer" >
+                    <i class="fab fa-github"></i> See code
+                </a>
+                <p>Non-deployed; console only. A hang-man game made with Node inquirer.</p>
+    </div>
     </div>
 
             <br className="clear" />
 
+
+
             <h1>CSS</h1>
+
+        <div className="portfolio_index">
 
             <div className="portfolio_item">
                 <div class="folio-img-wrapper">
@@ -111,6 +149,7 @@ const Portfolio = () => (
                 <p>Site design for webcomic, done with the comic author's input. Click to view site.</p>
 </div>
 
+        </div>
             <br className="clear" />
 
         </div>
