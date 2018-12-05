@@ -118,6 +118,7 @@ const Portfolio = () => (
                     </div>
                     <p>A variety of CSS templates I made for my community's homebrew comic publishing CMS.</p>
                 </div>
+            </div>
 
 
 
