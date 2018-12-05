@@ -105,6 +105,8 @@ const Portfolio = () => (
 
 
 
+
+
             <h1 id="htmlcss">HTML/CSS</h1>
 
             <div className="portfolio_index">
@@ -118,59 +120,54 @@ const Portfolio = () => (
                     </div>
                     <p>A variety of CSS templates I made for my community's homebrew comic publishing CMS.</p>
                 </div>
+
+
+
+            <div className="portfolio_item">
+                <div class="folio-img-wrapper">
+                    <div className="title">SF Forum</div>
+                    <a href="http://forums.spiderforest.net/" target="_blank" rel="noopener noreferrer" >
+                        <img src="assets/images/portfolio/Ptfo-SFForum.png" alt="SpiderForest Forums" />
+                    </a>
+                </div>
+                <p>SpiderForest Community Forum, designed to compliment the main site design. Click to view site.</p>
             </div>
-
-
 
                 <div className="portfolio_item">
                     <div class="folio-img-wrapper">
-                        <div className="title">SF Forum</div>
-                        <a href="http://forums.spiderforest.net/" target="_blank" rel="noopener noreferrer" >
-                            <img src="assets/images/portfolio/Ptfo-SFForum.png" alt="SpiderForest Forums" />
+                        <div className="title">'Lapse'</div>
+                        <a href="http://www.lapsecomic.com" target="_blank" rel="noopener noreferrer" >
+                            <img src="assets/images/portfolio/Ptfo-Lapse.png" alt="Lapse" />
                         </a>
                     </div>
-                    <p>SpiderForest Community Forum, designed to compliment the main site design. Click to view site.</p>
+                    <p>My own comic, on my own site. Click to view site.</p>
                 </div>
 
-
-                <div className="portfolio_index">
-
-                    <div className="portfolio_item">
-                        <div class="folio-img-wrapper">
-                            <div className="title">'Lapse'</div>
-                            <a href="http://www.lapsecomic.com" target="_blank" rel="noopener noreferrer" >
-                                <img src="assets/images/portfolio/Ptfo-Lapse.png" alt="Lapse" />
-                            </a>
-                        </div>
-                        <p>My own comic, on my own site. Click to view site.</p>
+                <div className="portfolio_item">
+                    <div class="folio-img-wrapper">
+                        <div className="title">'DDWG'</div>
+                        <a href="http://www.damsels-dont-wear-glasses.com" target="_blank" rel="noopener noreferrer" >
+                            <img src="assets/images/portfolio/Ptfo-DDWG.png" alt="DDWG" />
+                        </a>
                     </div>
-
-                    <div className="portfolio_item">
-                        <div class="folio-img-wrapper">
-                            <div className="title">'DDWG'</div>
-                            <a href="http://www.damsels-dont-wear-glasses.com" target="_blank" rel="noopener noreferrer" >
-                                <img src="assets/images/portfolio/Ptfo-DDWG.png" alt="DDWG" />
-                            </a>
-                        </div>
-                        <p>Site design for webcomic, done with the comic author's input. Click to view site.</p>
-                    </div>
-
-                    <div className="portfolio_item">
-                        <div class="folio-img-wrapper">
-                            <div className="title">'Sombulus'</div>
-                            <a href="http://www.sombulus.com" target="_blank" rel="noopener noreferrer" >
-                                <img src="assets/images/portfolio/Ptfo-Sombulus.png" alt="Sombulus" />
-                            </a>
-                        </div>
-                        <p>Site design for webcomic, done with the comic author's input. Click to view site.</p>
-                    </div>
-
+                    <p>Site design for webcomic, done with the comic author's input. Click to view site.</p>
                 </div>
-                <br className="clear" />
+
+                <div className="portfolio_item">
+                    <div class="folio-img-wrapper">
+                        <div className="title">'Sombulus'</div>
+                        <a href="http://www.sombulus.com" target="_blank" rel="noopener noreferrer" >
+                            <img src="assets/images/portfolio/Ptfo-Sombulus.png" alt="Sombulus" />
+                        </a>
+                    </div>
+                    <p>Site design for webcomic, done with the comic author's input. Click to view site.</p>
+                </div>
 
             </div>
+            <br className="clear" />
+
         </div>
-        </div>
+    </div>
         );
-        
+
 export default Portfolio;
